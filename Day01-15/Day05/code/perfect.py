@@ -24,3 +24,4 @@ end = time.clock()
 print("执行时间:", (end - start), "秒")
 
 # 通过比较上面两种不同的解决方案的执行时间 意识到优化程序的重要性
+# time.clock has been deprecated in Python 3.3 and will be removed from Python 3.8: use time.perf_counter or time.process_time instead
